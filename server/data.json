@@ -83,6 +83,27 @@
       "date": "2023-04-03T11:14:56.036Z",
       "useFor": "food",
       "id": 19
+    },
+    {
+      "type": "income",
+      "money": 11110,
+      "date": "2023-10-30T06:44:23.468Z",
+      "useFor": "salary",
+      "id": 20
+    },
+    {
+      "type": "pay",
+      "money": -555550,
+      "date": "2023-10-30T06:45:33.827Z",
+      "useFor": "book",
+      "id": 21
+    },
+    {
+      "type": "income",
+      "money": 11111110,
+      "date": "2023-10-27T13:00:00.000Z",
+      "useFor": "cashgift",
+      "id": 22
     }
   ]
 }

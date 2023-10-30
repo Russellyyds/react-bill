@@ -1,8 +1,8 @@
 import { createBrowserRouter } from 'react-router-dom'
-import KeepAccount from '../pages/KeepAccount'
-import YearBill from '../pages/YearBill'
-import Layout from '../pages/Layout'
-import MonthBill from '../pages/MonthBill'
+import New from '@/pages/New'
+import Year from '@/pages/Year'
+import Month from '@/pages/Month'
+import Layout from '@/pages/Layout'
 
 const router = createBrowserRouter([
   {
@@ -11,17 +11,17 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <MonthBill />
+        element: <Month />
       },
       {
         path: 'year',
-        element: <YearBill />
+        element: <Year />
       }
     ]
   },
   {
     path: '/new',
-    element: <KeepAccount />
+    element: <New />
   }
 ])
 
